@@ -22,6 +22,7 @@ Frontend Technologies
 
 - Docker
 - Docker Compose
+- Java 21
 
 ### Building and Running the Project with Docker
 
@@ -30,8 +31,9 @@ To build and run the project using Docker, follow these steps:
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/kalilmvp/bill-coin-exchange.git
-    cd bill-coin-exchange
+    git clone https://github.com/kalilmvp/bill-coin-exchange-showcase.git
+    cd bill-coin-exchange-showcase.git
+    cd backend
     ```
 
 2. **Build the Docker image**:
@@ -111,3 +113,37 @@ http://localhost:8080/swagger-ui/index.html
 - NPM 11.2.0
 - Docker
 - Docker Compose
+
+### Building and Running the Project with Docker
+
+To build and run the project using Docker, follow these steps:
+
+1. **Clone the repository**:
+
+In case you already have the project and is on the root folder, only need to access
+the frontend folder
+
+```sh
+    cd frontend
+ ```
+
+if not
+
+```sh
+git clone https://github.com/kalilmvp/bill-coin-exchange-showcase.git
+cd bill-coin-exchange-showcase.git
+cd frontend
+```
+
+2. **Build the Docker image**:
+
+    ```sh
+    docker-compose build
+    ```
+
+3. **Run the Docker container**:
+
+    ```sh
+    docker-compose up
+    ```
+<br/>
