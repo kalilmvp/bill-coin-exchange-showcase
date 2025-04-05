@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: bill-exchange-frontend
+    build: .
+    ports:
+      - "3000:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development

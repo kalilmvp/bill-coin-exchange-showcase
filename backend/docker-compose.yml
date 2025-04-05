@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: bill-exchange-api
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=default

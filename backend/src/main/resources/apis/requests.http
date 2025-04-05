@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/api/bill-coin-exchange/least
+Content-Type: application/json
+
+{
+  "value": 1
+}
+
+###
+POST http://localhost:8080/api/bill-coin-exchange/most
+Content-Type: application/json
+
+{
+  "value": 1
+}
+
+###
+PUT http://localhost:8080/api/bill-coin-exchange/init
+
