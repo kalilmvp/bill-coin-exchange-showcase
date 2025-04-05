@@ -36,17 +36,12 @@ To build and run the project using Docker, follow these steps:
     cd backend
     ```
 
-2. **Build the Docker image**:
+2. **Build and Run the the Docker image**:
 
     ```sh
-    docker-compose build
+    docker compose up --build
     ```
 
-3. **Run the Docker container**:
-
-    ```sh
-    docker-compose up
-    ```
 <br/>
 The API's will be available at `http://localhost:8080`.
 
@@ -95,7 +90,7 @@ You can access the Swagger UI to interact with the API endpoints at:
 ```
 http://localhost:8080/swagger-ui/index.html
 ```
-
+<br/><br/>
 ![SwaggerUI](backend/documentation/swagger-bill-coin.png)
 
 #### Project Structure
@@ -135,15 +130,11 @@ cd bill-coin-exchange-showcase.git
 cd frontend
 ```
 
-2. **Build the Docker image**:
+1. **Build and Run the the Docker image**:
 
     ```sh
-    docker-compose build
+    docker compose up --build
     ```
+<br/><br/>
+![FrontendApp](frontend/documentation/frontend.png)
 
-3. **Run the Docker container**:
-
-    ```sh
-    docker-compose up
-    ```
-<br/>
